@@ -1,0 +1,80 @@
+h1 {
+ font-size: 23px;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+body{
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: larger;
+  color: red;
+  line-height: 3em;
+  background-color: bisque;
+}
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover {
+  color: aliceblue;
+  font-size: 55px;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.round-img {
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+
+.card {
+  max-width: 1000px;
+  margin: 20px auto ;
+  border-radius: 100px;
+  border: 2px grey;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
